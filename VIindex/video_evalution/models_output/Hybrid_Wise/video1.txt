@@ -1,0 +1,539 @@
+00:00 : SORTING NETWORKS
+
+Presented By
+PADMALEENA KABITA
+Roll 11200157101
+
+UNDER THE GUIDANCE
+
+OF
+MR. ANISUR RAHMAN
+
+g
+3
+8
+i
+5
+—
+E
+$
+a
+q
+8
+@
+Fs
+g
+é
+&
+
+PADMALEENA KABITA
+
+ 
+00:03 : SORTING- What is it?
+
++ Sorting is the process by which for given
+scts of input. the outputs can be arranged in
+increasing or decreasing order.
+
++ Any sequence S={s,5).........8,f can be
+arranged into a new sequence
+
+-8, } such that s,°<s,_,° for
+n-!. by Sorting.
+
+zg
+3
+8
+&
+:
+Ez
+E
+s
+a
+q
+g
+=
+F
+5
+a
+&
+
+PADMALEENA KABITA
+
+ 
+00:06 : SORTING NETWORKS-Az introduction
+* Sorting networks are Comparison networks
+that always sort their inputs.
+* They comprise of Comparators and wires.
+* Sorting networks implement Parallel
+sorting.
++ Here input set is divided into two or more
+
+subsets and are sorted parallely after which
+they are merged into one output set.
+
+8
+a
+a
+s
+é
+&
+a
+q
+g
+z
+FA
+3
+&
+
+PADMALEENA KABITA
+
+ 
+00:09 : 2
+&
+a
+5
+é
+&
+o
+q
+g
+z
+FA
+3
+&
+
+A SORTING NETWORK
+
++ A Sorting network
+consists of comparators
+which takes in two
+Inputs. x and y. and two
+outpuls. x” andy”. that
+performs the following
+functions:
+
+x =min(x.y)
+y =max (x.y)
+
+PADMALEENA KABITA
+
+ 
+
+ 
+
+COMPARATOR
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+00:12 : MERGIN
+
+“Its importance in Sorting networks
+
++ Merging process is an important process in
+Sorting Networks.
+
++ After parallel sorting of tvo subsets get
+over, merging them into one single set is
+essential which is accomplished by a special
+
+purpose parallel architecture known as
+Merging Network.
+
+2
+&
+a
+5
+é
+&
+o
+q
+g
+z
+FA
+Ey
+&
+
+PADMALEENA KABITA
+
+ 
+00:15 : 2
+a
+a
+5
+é
+&
+3
+q
+g
+z
+Fs
+3
+&
+
+THE ZERO-ONE PRINCIPLE
+
+THEOREM:
+
+A comparator network with n inputs that sorts
+
+all 2° sequences of
+
+zeroes and ones is a
+
+sorting network fie. it sorts all sequences of
+arbitrary values, too).
+
+ 
+
+co
+
+i)
+
+ 
+
+COMPARATOR
+
+mikey hainte)
+
+mahi) rtm)
+
+ 
+
+ 
+
+PADMALEENA KABITA
+
+ 
+00:18 : BS TT EIR ATS AAS
+
+     
+  
+   
+ 
+ 
+   
+   
+ 
+
+ 
+
+ED BE NTO
+a position & such that by.
+Now detine a mapping f ; A= {0.1} as follows. For
+all ce A let
+Rey = io by
+-L ifczhy
+
+Obviously. fis monotonic. Moreover we have:
+Absa 1 and fib. =0
+Le. lb) =AMa)) is unsorted,
+
+ 
+
+i.e, thes
+
+ 
+
+PADMALEENA KABITA
+00:21 : INFERENCE FROM THE PROOF:
+
+* Thus \(f(a)) is unsorted or. in other words,
+that the 0-1-sequence f(a) is not sorted by
+ihe comparator network V.
+
++ If there is an arbitrary sequence « that is not
+sorted by .V. then there is a 0-1-sequence
+Ata) that is not sorted by V.
+
+« Conversely. if all 0-1-sequences are sorted
+by .V. then all arbitrary sequences are sorted
+by V.
+
+2
+&
+a
+£
+é
+&
+3
+q
+g
+Hy
+Fs
+3
+&
+
+PADMALEENA KABITA
+
+ 
+00:27 : 2
+a
+a
+5
+é
+&
+a
+q
+g
+z
+FA
+Ey
+&
+
+A BITONIC SORTING NETWORK
+
+A Bitonic Sorting Network is a comparison
+network that can sort any Bilonic scquence:
+a sequence that cither monotonically
+decreases and then monotonically increases
+or the converse of it.
+
+A bilonic sorter is comprised of several
+stages. each of which is called a half-
+cleaner.
+
+PADMALEENA KABITA
+
+ 
+00:30 : A BITONIC SORTING NETWORK (Contd..)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+If the input to a Half Cleaner 1s a Bitome Sequence
+of Os and 1's, then the output. satisfies the
+following properties: both the top half’ and the
+bottom half are bitonie, every element in the top
+half is at feast as small ay every element of the
+bottom half and at least one half is clean.
+
+2
+&
+a
+5
+é
+&
+fa
+q
+g
+z
+FA
+Ey
+&
+
+PADMALEENA KABITA
+
+ 
+00:33 : A BITONIC SORTING NETWORK (Contd..)
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+| =
+
+If the input to a Half Cleaner 1s a Bitome S
+
+of O's and then the output satis
+following properties: both the top half’ and the
+bottom half are bitonie, every element in the top
+half is at least as small ay every element of the
+bottom half and at least one half is clean.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+2
+&
+a
+5
+é
+&
+i
+q
+g
+z
+FA
+Ey
+&
+
+PADMALEENA KABITA
+
+ 
+00:36 : RANSPOSITION SORTING NETWORK
+(Odd-Fven Mergesort)
++ This Algorithm is based on a merge
+algorithm that merges two sorted halves of a
+sequence to a completely sorted sequence.
+This algorithm is not data-dependent. Le
+the same comparisons are performed
+regardless of the actual data.
+Therefore. Odd-even mergesort can be
+implemented as a sorting network.
+
+3
+a
+a
+£
+é
+&
+e
+q
+g
+=
+FA
+Ey
+&
+
+PADMALEENA KABITA
+
+ 
+00:39 : PERMUTATION NETWORK
+
++ A Permutation network on n inputs and n
+outputs has switches that allow it to connect its
+inputto its outputs according to any of the n!
+possible permutations.
+
+Ifwe replace each comparator ina __[ 2
+sorting network with the switch of
+the figure. the resulting network is
+a permutation network.
+
+ 
+
+2
+&
+a
+5
+é
+&
+a
+q
+g
+Hy
+Fs
+Ey
+&
+
+ 
+
+ 
+
+ 
+
+PADMALEENA KABITA
+
+ 
+00:42 : SHELLSORT SORTING NETWORK
+
++ The idea of Shellsort is the following:
+(a) Arrange the data sequence in a two-
+dimensional array
+(b) Sort the columns of the array in a repeated
+proces
+* Shellsort can be implemented ay a sorting network
+
+if the data-dependent Insertion Sort is replaced
+with Bubble Sort.
+
+2
+&
+a
+5
+é
+&
+a
+q
+g
+z
+FA
+3
+&
+
+PADMALEENA KABITA
+
+ 
+00:45 : CONCLUSION...
+
+¢ Sorting networks are the fastest known as
+comparisons are performed in parallel.
+
++ This property of the Sorting networks is
+implemented in various networks.which
+increases its efficiency.
+
+2
+a
+a
+5
+é
+&
+a
+q
+g
+z
+FA
+3
+&
+
+PADMALEENA KABITA
+
+ 
+00:48 : THANK YOU !!!
+
+2
+8
+a
+5
+é
+&
+a
+ia
+g
+z
+&
+&
+&
+
+PADMALEENA KABITA
+
+ 

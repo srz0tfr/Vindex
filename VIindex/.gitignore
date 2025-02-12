@@ -1,0 +1,14 @@
+/OCR/.ipnyb_checkpoints
+/OCR/images
+/OCR/ocr_env
+/OCR/ucr_nb
+/OCR/results
+/OCR/videos
+/OCR/data
+*.ipnyb
+*.pyc
+/.idea
+q1_2.png
+Incorrect
+Visualisation
+webapp/Presentation.mp4
