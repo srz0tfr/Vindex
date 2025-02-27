@@ -4,7 +4,7 @@
 
 # Instructions
 
-1. `git clone https://github.com/ManulGoyal/InstructionalVideoIndexing`
+1. `git clone https://github.com/https://github.com/srz0tfr/Vindex.git
 2. `cd OCR`
 3. `sudo apt-get install tesseract-ocr`
 4. `pip install pytesseract`
