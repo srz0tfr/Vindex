@@ -11,7 +11,7 @@
 5. `pip install opencv-python`
 6. `pip install pillow`
 7. `python video.py -v <path-to-video> -i <sampling-interval> -e <stop-timestamp> -o <path-to-output-folder>`
-# Suggested to make a model based on your requirements.
+  `Suggested to make a model based on your requirements.`
 
 
 # Command line arguments to video.py
