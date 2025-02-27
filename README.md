@@ -10,7 +10,7 @@
 4. `pip install pytesseract`
 5. `pip install opencv-python`
 6. `pip install pillow`
-7. `python video.py -v <path-to-video> -i <sampling-interval> -e <stop-timestamp> -o <path-to-output-folder>`
+7. `python video.py -v <path-to-video> -i <sampling-interval> -e <stop-timestamp> -o <path-to-output-folder>`<br />
   `Suggested to make a model based on your requirements.`
 
 
